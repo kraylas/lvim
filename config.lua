@@ -181,6 +181,9 @@ lvim.keys.normal_mode["<Up>"] = ""
 lvim.keys.normal_mode["<Down>"] = ""
 lvim.keys.normal_mode["<Left>"] = ""
 lvim.keys.normal_mode["<Right>"] = ""
+lvim.keys.normal_mode["<F9>"] = ":w<CR>:TermExec cmd=\"xmake build\"<CR>"
+lvim.keys.normal_mode["<F10>"] = ":TermExec cmd=\"xmake run\"<CR>"
+
 vim.opt.expandtab = false -- convert tabs to spaces
 vim.opt.shiftwidth = 4 -- the number of spaces inserted for each indentation
 vim.opt.tabstop = 4 -- insert 2 spaces for a tab
